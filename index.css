@@ -8,22 +8,26 @@ body{
     height: 130px;
 }
 
-.top_bar_text_box{
+.top_bar_mask{
     width: 100%;
     height: 100%;
     font-size: 2rem;
     letter-spacing:2px;
     font-weight: bold;
-    text-align: center;
-    padding-top: 55px;
+    display: flex;
+    align-items: center;
     color: #fff3cd;
     background-color: #4d3e3e;
+}
+
+.top_bar_text_box{
+    position: relative;
+    margin:auto;
 }
 
 .menu_bar{
     background-color: rgba(0,0,0,0.8);
     height: 32px;
-    text-align: right;
 }
 
 .search_field{
@@ -35,13 +39,14 @@ body{
     border: 1px solid #675353;
     box-sizing: content-box;
     background-color: rgba(0, 0, 0, 0);
-
+    display: flex;
+    align-items: center;
 }
 
 .search_field_icon{
     width: 18px;
     height: 18px;
-    margin: 1px 5px 1px 1px;
+    margin: auto 5px auto auto;
     float: right;
     display: inline-block;
 }
@@ -50,7 +55,7 @@ body{
     background-color: rgba(0, 0, 0, 0);
     border: 0;
     width: 65%;
-    margin: 1px 1px 1px 10px;
+    margin: auto auto auto 10px;
     float: left;
     font-size: 16px;
     color: #ff926b;
