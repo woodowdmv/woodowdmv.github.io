@@ -1,0 +1,14 @@
+.articles_container{
+    margin: 5px;
+}
+
+.article_box{
+    border: 1px solid #ff926b;
+    background-color: #ffc38b;
+    height:150px;
+}
+
+.article_box_header{
+    background-color: #ff926b;
+    color: #fff3cd;
+}
