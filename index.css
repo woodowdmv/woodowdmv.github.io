@@ -6,6 +6,7 @@ body{
     background-color: #ffffff;
     background-size: 100% auto;
     height: 130px;
+    background-image: url("pics/puzzle.png");
 }
 
 .top_bar_mask{
@@ -17,7 +18,7 @@ body{
     display: flex;
     align-items: center;
     color: #fff3cd;
-    background-color: #4d3e3e;
+    background-color: rgba(55, 40, 40, 0.8);
 }
 
 .top_bar_text_box{

@@ -1,11 +1,14 @@
 .articles_container{
-    margin: 5px;
+    width: 100%;
+    box-sizing: content-box;
+    margin: 0;
 }
 
 .article_box{
     border: 1px solid #ff926b;
     background-color: #ffc38b;
     height:150px;
+    box-sizing: border-box;
 }
 
 .article_box_header{
