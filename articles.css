@@ -10,11 +10,18 @@
     background-color: #ffc38b;
     height:150px;
     box-sizing: border-box;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .article_box_header{
     background-color: #ff926b;
     color: #fff3cd;
+}
+
+.article-content-box{
+    margin: 20px;
 }
 
 .ui.grid{
