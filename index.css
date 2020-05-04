@@ -1,5 +1,6 @@
-body{
-    box-sizing: content-box;
+@font-face {
+    font-family: zcool;
+    src: url("./font/zcoolhappy.ttf");
 }
 
 .top_bar{
@@ -12,9 +13,10 @@ body{
 .top_bar_mask{
     width: 100%;
     height: 100%;
+    font-family: zcool;
     font-size: 2rem;
     letter-spacing:2px;
-    font-weight: bold;
+    font-weight: normal;
     display: flex;
     align-items: center;
     color: #fff3cd;
@@ -25,6 +27,13 @@ body{
     position: relative;
     margin:auto;
 }
+
+@media only screen and (max-width: 768px) {
+    .top_bar {
+        background-size: auto 120%;
+    }
+}
+
 
 .menu_bar{
     background-color: rgba(0,0,0,0.8);
@@ -69,3 +78,5 @@ body{
 .search_field_input::-webkit-input-placeholder{
     color: #675353;
 }
+
+

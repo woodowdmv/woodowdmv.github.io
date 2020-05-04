@@ -1,7 +1,8 @@
 .articles_container{
     width: 100%;
-    box-sizing: content-box;
+    box-sizing: border-box;
     margin: 0;
+    padding-top: 10px;
 }
 
 .article_box{
@@ -15,3 +16,9 @@
     background-color: #ff926b;
     color: #fff3cd;
 }
+
+.ui.grid{
+    margin: 0 !important;
+}
+
+
