@@ -34,6 +34,11 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    .search_field{
+        width: 66% !important;
+    }
+}
 
 .menu_bar{
     background-color: rgba(0,0,0,0.8);

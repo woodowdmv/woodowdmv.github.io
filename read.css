@@ -1,0 +1,9 @@
+@font-face {
+    font-family: MyHeiti;
+    src: url("./font/simhei.ttf");
+}
+
+.read-box{
+    margin: 20px;
+    font-family: MyHeiti;
+}

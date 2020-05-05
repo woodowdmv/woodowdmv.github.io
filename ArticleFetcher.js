@@ -9,14 +9,23 @@ function GetQueryString(name)
 
 $(document).ready(function () {
     let articleID = GetQueryString("id");
-    let content = "url的文章id" + articleID;
-    $("#article-title").html(content);
 
-    readFile("./articles/prophet/ch1.txt");
+    $.getJSON("./article_abstract.json", function (result) {
+        for(let i = 0; i < result.length; i++){
+            console.log(result[i]);
+            if($.trim(result[i].id.toString()) === $.trim(articleID)){
+                readFile(result[i].address);
+                let title = result[i].title;
+                $("#article-title").html(title);
+
+
+                break;
+            }
+        }
+    })
 })
 
 function readFile(filepath){
-    console.log("reading");
     let text = $.ajax({
         url : filepath,
         async: false

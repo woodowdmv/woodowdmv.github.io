@@ -1,3 +1,13 @@
+@font-face {
+    font-family: muyao;
+    src: url("./font/muyao.ttf");
+}
+
+@font-face {
+    font-family: wenyi;
+    src:url("./font/wenyi.ttf");
+}
+
 .articles_container{
     width: 100%;
     box-sizing: border-box;
@@ -18,10 +28,26 @@
 .article_box_header{
     background-color: #ff926b;
     color: #fff3cd;
+    padding: 7px;
 }
 
-.article-content-box{
-    margin: 20px;
+.article_box_header_ico{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+.article_box_header_text{
+    display:inline-block;
+    font-size: 25px;
+    font-family: muyao;
+    letter-spacing: -4px;
+
+}
+
+.article_box_abstract{
+    padding: 7px;
+    font-family: wenyi;
 }
 
 .ui.grid{
