@@ -1,5 +1,13 @@
 [
   {
+    "id": "melt",
+    "title": "融",
+    "tags": ["明狄", "明世隐", "狄仁杰"],
+    "icon": "car",
+    "abstract": "明狄原皮CP\n不好意思说古风，但我觉得写得还挺古的\n温泉+雪月",
+    "address": "./articles/melt.txt"
+  },
+  {
     "id": 0,
     "title": "实操型AI",
     "tags": ["明狄", "明世隐", "狄仁杰"],
@@ -81,10 +89,34 @@
   },
   {
     "id": 10,
+    "title": "不误正业",
+    "tags": ["明狄", "明世隐", "狄仁杰"],
+    "icon": "car",
+    "abstract": "辅助宣传周，明世隐参赛去了\n主办方的管理员狄仁杰忙的焦头烂额\n似乎还有些坐立难安",
+    "address": "./articles/SupportWeek.txt"
+  },
+  {
+    "id": 11,
+    "title": "掉线的代价",
+    "tags": ["明狄", "明世隐", "狄仁杰"],
+    "icon": "car",
+    "abstract": "对面明世隐捡到了在草丛里掉线的阴阳师\n捡到这么大人头真的是好运气\n等等，他辅助怎么来了",
+    "address": "./articles/SupportWeek.txt"
+  },
+  {
+    "id": 12,
     "title": "英谷莉特缺席的枪术研讨会",
     "tags": ["帝弥托利", "希尔凡", "菲力克斯", "青狮竹马组"],
     "icon": "sweat",
-    "abstract": "周末老师在散步，帝弥托利和希尔凡在写论文\n但两人被作者夺走了脑子. . .\n真的令人头大",
+    "abstract": "周末老师在散步，帝弥托利和希尔凡在写论文\n但两人被作者夺走了脑子. . .\n真的令菲力克斯头大",
     "address": "./articles/IngridMissing.txt"
+  },
+  {
+    "id": 13,
+    "title": "无言之月",
+    "tags": ["鹤丸国永", "一期一振", "审神者", "慎点"],
+    "icon": "sweat",
+    "abstract": "黄且暴，强行乱来，谨慎点击\n还有点魔幻. . .\n主要演员是鹤丸和一期。真的慎点",
+    "address": "./articles/SilentMoon.txt"
   }
 ]

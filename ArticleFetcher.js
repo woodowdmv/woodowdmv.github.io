@@ -12,7 +12,6 @@ $(document).ready(function () {
 
     $.getJSON("./article_abstract.json", function (result) {
         for(let i = 0; i < result.length; i++){
-            console.log(result[i]);
             if($.trim(result[i].id.toString()) === $.trim(articleID)){
                 readFile(result[i].address);
                 let title = result[i].title;

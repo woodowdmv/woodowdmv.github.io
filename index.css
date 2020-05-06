@@ -26,6 +26,8 @@
 .top_bar_text_box{
     position: relative;
     margin:auto;
+    text-align: center;
+    line-height: 150%;
 }
 
 @media only screen and (max-width: 768px) {
