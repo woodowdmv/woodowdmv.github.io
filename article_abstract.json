@@ -13,7 +13,27 @@
     "tags": ["明狄", "明世隐", "狄仁杰"],
     "icon": "car",
     "abstract": "虹云星官、占星术士明世隐\n阴阳师狄仁杰(传奇调查员)\n是玩COC启发的东西，克苏鲁神话题材",
-    "address": "./articles/SeaGod.txt"
+    "address": "./articles/SeaGod.txt",
+    "additionalLink": [
+      {
+        "linkName":"日后谈",
+        "linkID": "SeaGodAdditional"
+      }
+    ]
+  },
+  {
+    "id": "SeaGodAdditional",
+    "title": "海神 - 日后谈",
+    "tags": ["明狄", "明世隐", "狄仁杰"],
+    "icon": "hide",
+    "abstract": "虹云星官、占星术士明世隐\n阴阳师狄仁杰(传奇调查员)\n是玩COC启发的东西，克苏鲁神话题材",
+    "address": "./articles/SeaGodAdditional.txt",
+    "additionalLink": [
+      {
+        "linkName":"海神",
+        "linkID": "SeaGod"
+      }
+    ]
   },
   {
     "id": 0,
