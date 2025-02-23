@@ -8,6 +8,14 @@
     "address": "./articles/melt.txt"
   },
   {
+    "id": "PaintFairy",
+    "title": "画中灵",
+    "tags": ["明狄", "明世隐", "狄仁杰"],
+    "icon": "car",
+    "abstract": "明狄国创皮肤CP\n我画的画成仙了哈哈哈我成了\n画弄脏了送不出手了",
+    "address": "./articles/PaintFairy.txt"
+  },
+  {
     "id": "SeaGod",
     "title": "海神",
     "tags": ["明狄", "明世隐", "狄仁杰"],

@@ -47,6 +47,17 @@
     height: 32px;
 }
 
+.simple_statement{
+    height: 20px;
+    margin: 5px;
+    width: 30%;
+    padding-left: 20px;
+    box-sizing: content-box;
+    color: #fff3cd;
+    display: inline-block;
+    align-items: center;
+}
+
 .search_field{
     height: 20px;
     margin: 5px;
@@ -56,7 +67,7 @@
     border: 1px solid #675353;
     box-sizing: content-box;
     background-color: rgba(0, 0, 0, 0);
-    display: flex;
+    display: inline-block;
     align-items: center;
 }
 
